@@ -5,12 +5,13 @@ body{
     align-items: center;
     align-content: center;
 }
-body head form {
+h2{
+    background-color: blue;
+    color: white;
+}
+body section header form{
     display: grid;
-    grid-template-columns: auto auto auto;
-    align-items: center;
-    align-self: center;
-
+    grid-column: auto;
 }
 body section head input[ type = "text"]{
     display: flex;
@@ -18,7 +19,7 @@ body section head input[ type = "text"]{
     align-self: center;
     align-content: center;
     background-color: aqua;
-    color: blue;
+    color: black;
 
 }
 body section  form  [type = "button"]{
@@ -32,11 +33,11 @@ body main form{
     align-items: center;
     align-self: center;
     background-color: aqua;
+    color: black;
     align-content: center;
     padding-left: 3em;
     padding-right: 3em;
     padding-top: 1em;
-    border-radius: 1em;
 }
 body aside form input[type = "button"]{
     display: grid;
@@ -46,6 +47,7 @@ section{
     margin-left: 30em;
     margin-right: 30em;
     background-color: blue;
+    color: aqua;
     align-self: center;
     align-items: center;
     border-radius: 1em;
@@ -53,12 +55,10 @@ section{
     padding-right: 1em;
     padding-bottom: 3em;
     padding-top: 3em;
-    border-radius: 3em;
     
 }
 
 form input[type = "button"]{
     height: 3.7em;
     width: 3.7em;
-    border-radius: 1em;
 }

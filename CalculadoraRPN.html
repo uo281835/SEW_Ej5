@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Calculadora</title>
+<script src = "CalculadoraRPN.js"> </script>
+<link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+</head>
+
+<body>
+  <main>
+ 
+  
+  
+<section>
+  <header>
+    <form>
+      <label for="output">Pila números</label>
+      <textarea id = "output" name="output" rows="5"  ></textarea>
+      <label for="Actual">Valor actual</label>
+      <input id = "Actual" type="text" name="Actual" disabled/>
+    </form>
+  </header>
+  <h2>Botones calculadora</h2>
+  <form>
+    <input type="button" value="1" onClick = "calculadora.add(1)">
+
+    <input type="button" value="2" onClick = "calculadora.add(2)">
+
+    <input type="button" value="3" onClick = "calculadora.add(3)">
+    
+    
+    <input type="button" value="4" onClick = "calculadora.add(4)">
+
+    <input type="button" value="5" onClick = "calculadora.add(5)">
+
+    <input type="button" value="6" onClick = "calculadora.add(6)">
+    
+   
+    <input type="button" value="7" onClick = "calculadora.add(7)">
+
+    <input type="button" value="8" onClick = "calculadora.add(8)">
+    <input type="button" value="9" onClick = "calculadora.add(9)">
+ 
+    <input type="button" value="0" onClick = "calculadora.add(0)">
+    <input type="button" value="." onClick = "calculadora.add('.')">
+    <input type="button" value="+" onClick = "calculadora.sumar()">
+    <input type="button" value="-" onClick = "calculadora.restar()">
+    <input type="button" value="Borrar" onClick = "calculadora.remove()">
+    <input type="button" value="*" onClick = "calculadora.multiplicar()">
+    <input type="button" value="/" onClick = "calculadora.dividir()">
+    <input type="button" value="Enter" onClick = "calculadora.enter()">
+    <input type="button" value="^" onClick = "calculadora.toggle()">
+    <input type="button" value="Sin" onClick = "calculadora.sin()">
+    <input type="button" value="Cos" onClick = "calculadora.cos()">
+    <input type="button" value="Tan" onClick = "calculadora.tan()">
+  </form>
+  
+</section>
+</main>
+</body>
+
+</html>
+
+
