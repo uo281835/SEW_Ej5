@@ -1,35 +1,37 @@
-
 body{
     display: flex;
     align-self: center;
     align-items: center;
     align-content: center;
 }
-h2{
-    background-color: blue;
-    color: white;
-}
-body section header form{
+body form {
     display: grid;
-    grid-column: auto;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    align-self: center;
+
 }
-body section head input[ type = "text"]{
+body main input[ type = "text"]{
     display: flex;
     align-items: center;
     align-self: center;
     align-content: center;
-    background-color: aqua;
+    background-color: white;
     color: black;
+    font-size: 1.5em;  
 
 }
-body section  form  [type = "button"]{
+body main  form  [type = "button"]{
     background-color: green;
     color: white;
     width: 5em;
+    font-size: 1.5em;  
+    margin: 1em;
+    border-radius: 1em;
 }
-body main form{
+body section form{
     display: grid;
-    grid-template-columns: 4.7em 4.7em  3em;
+    grid-template-columns: 10em 10em  10em 10em;
     align-items: center;
     align-self: center;
     background-color: aqua;
@@ -38,16 +40,21 @@ body main form{
     padding-left: 3em;
     padding-right: 3em;
     padding-top: 1em;
+    padding-bottom: 3em;
+    border-radius: 1em;
+    font-size: 1em;  
 }
 body aside form input[type = "button"]{
     display: grid;
     grid-template-columns: auto ;
 }
-section{
+main{
     margin-left: 30em;
     margin-right: 30em;
     background-color: blue;
-    color: aqua;
+    color : white;
+    font-size: 1em;  
+    
     align-self: center;
     align-items: center;
     border-radius: 1em;
@@ -61,4 +68,6 @@ section{
 form input[type = "button"]{
     height: 3.7em;
     width: 3.7em;
+    border-radius: 1em;
+    font-size: 1.5em;  
 }
