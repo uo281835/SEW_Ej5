@@ -11,24 +11,39 @@ body form {
     align-self: center;
 
 }
-body main input[ type = "text"]{
+body label, h2{
+    font-size: 1.6em;  
+}
+body header textarea{
     display: flex;
     align-items: center;
     align-self: center;
     align-content: center;
     background-color: white;
     color: black;
-    font-size: 3em;  
+    font-size: 1.5em;  
 
 }
+body header input[ type = "text"]{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: white;
+    color: black;
+    font-size: 1.5em;  
+
+}
+
 body main  form  [type = "button"]{
     background-color: green;
     color: white;
     width: 5em;
-    font-size: 3em;  
+    font-size: 1.5em;  
     margin: 1em;
     border-radius: 1em;
 }
+
 body section form{
     display: grid;
     grid-template-columns: 10em 10em  10em 10em;
@@ -42,7 +57,7 @@ body section form{
     padding-top: 1em;
     padding-bottom: 3em;
     border-radius: 1em;
-    font-size: 3em;  
+    font-size: 1.5em;  
 }
 body aside form input[type = "button"]{
     display: grid;
@@ -69,5 +84,5 @@ form input[type = "button"]{
     height: 3.7em;
     width: 3.7em;
     border-radius: 1em;
-    font-size: 3em;  
+    font-size: 1.5em;  
 }
