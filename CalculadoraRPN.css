@@ -42,7 +42,7 @@ body section form{
     padding-top: 1em;
     padding-bottom: 3em;
     border-radius: 1em;
-    font-size: 1em;  
+    font-size: 1.5em;  
 }
 body aside form input[type = "button"]{
     display: grid;
