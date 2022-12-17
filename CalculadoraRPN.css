@@ -11,18 +11,8 @@ body form {
     align-self: center;
 
 }
-body label, h2{
-    font-size: 1.6em;  
-}
-body header textarea{
-    display: flex;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    background-color: white;
-    color: black;
+label {
     font-size: 1.5em;  
-
 }
 body header input[ type = "text"]{
     display: flex;
