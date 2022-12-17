@@ -18,14 +18,14 @@ body main input[ type = "text"]{
     align-content: center;
     background-color: white;
     color: black;
-    font-size: 1.5em;  
+    font-size: 3em;  
 
 }
 body main  form  [type = "button"]{
     background-color: green;
     color: white;
     width: 5em;
-    font-size: 1.5em;  
+    font-size: 3em;  
     margin: 1em;
     border-radius: 1em;
 }
@@ -42,7 +42,7 @@ body section form{
     padding-top: 1em;
     padding-bottom: 3em;
     border-radius: 1em;
-    font-size: 1.5em;  
+    font-size: 3em;  
 }
 body aside form input[type = "button"]{
     display: grid;
@@ -69,5 +69,5 @@ form input[type = "button"]{
     height: 3.7em;
     width: 3.7em;
     border-radius: 1em;
-    font-size: 1.5em;  
+    font-size: 3em;  
 }
